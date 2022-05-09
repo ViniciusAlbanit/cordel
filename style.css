@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Bad Script', cursive;
+    --fonte3: 'Passion One', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgray;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--fonte3);
+    font-size: 8vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+}
+
+section > p {
+    font-weight: bolder;
+    font-size: 3.3vw;
+    padding-bottom: 1em;
+}
+
+.img{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
+    background-attachment: fixed;
+}
+
+.img > p{
+    background-color: rgba(0, 0, 0, 0.486);
+    display: inline-block;
+    padding:4px; 
+    color: white;
+    text-shadow: 2px 1px 1px black;
+}
+
+#abelha{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+#papel{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
